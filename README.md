@@ -2,7 +2,7 @@
 - Esse projeto ajuda em saber informações de uma  certa conta do GitHub sem ter uma conta no GitHub
 - pode encontrar qualquer conta e saber muita coisa sobre essa conta sem nem mesmo estar logado
 - tomando algumas informações do Api do github(<a href="https://docs.github.com/pt/rest">API</a>)
-# Secnologias usadas #
+# Tecnologias usadas #
 - JavaScript(JS)
 - CSS3
 - HTML5
