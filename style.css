@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #141C2F;
+    font-size: 15pt;
+    font-family: sans-serif;
+}
+.container{
+    width: 600px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.search-container{
+    background: #1F2A48;
+    padding: 19px;
+    border-radius: 10px;
+    width: 600px;
+    text-align: center;
+}
+.username{
+ padding: 9px;
+ background: none;
+ border: 1px solid transparent;
+ color: #fff;
+ outline: none;
+ width: 450px;
+}
+.btn{
+    padding: 9px;
+    width: 80px;
+    background: #017AFD;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius:0 10px 10px 0 ;
+}
+.bx-search-alt-2{
+    color: #1E477B;
+}
+.result-container{
+    background: #1F2A48;
+    height:400px;
+    width: 600px;
+    margin-top: 20px;
+    padding: 19px;
+    border-radius: 10px;
+}
+.user-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+.user-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.user-login{
+    color: #fff;
+    font-weight: 900px;
+    margin-left: 130px;
+    width: 100px;
+}
+.user-name{
+    color: #fff;
+    margin-top: 10px;
+    width: 100px;
+}
+.user-bio{
+    font-size: 15px;
+    margin-left: 150px;
+    word-wrap: break-word;
+    color: #fff;
+    margin-top: 10px;
+}
+.user-info{
+    width: 500px;
+    margin-left: 50px;
+    background: #141C2F;
+    color: #fff;
+   padding: 11px;
+   border-radius: 10px;
+}
+.user-info div{
+    display: inline-block;
+}
+.user-info{
+    text-align: center;
+    margin-top: 20px;
+}
+.user-info label{
+    color: #414858;
+    margin: 10px;
+}
+.user-blog{
+    color: #fff;
+    margin-left: 70px;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+.user-blog a{
+    color: #fff;
+    margin-left: 100px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.user-location,.user-blog{
+    color: #fff;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin:10px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.user-company,.user-twitter{
+    color: #fff;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin:10px;
+    display: inline-block;
+    margin-left: 110px;
+}
+@media (max-width:320px){
+    .container{
+        width: 300px;
+        height: 600px;
+    }
+    .search-container{
+        width: 300px;
+    }
+    .username{
+        width: 200px;
+    }
+    .btn{
+        width: 60px;
+    }
+    .result-container{
+        width: 300px;
+        height: 500px;
+    }
+    .user-img{
+        margin-left: 100px;
+        width: 110px;
+        height: 110px;
+    }
+     .user-name{
+        margin-left: 100px;
+     }
+     .user-login{
+        margin:0;
+     }
+     .user-bio{
+        margin: 0;
+     }
+     .user-info{
+        width: 290px;
+        padding: 9px;
+        margin-left:1px;
+     }
+     .user-info label{
+        margin: 5px;
+     }
+     .user-blog{
+        margin: 0;
+    }
+    .user-blog a{
+        margin-left:5px;
+    }
+    .user-company,.user-twitter{
+        margin-left: 2px;
+        display: block;
+        margin-top: 20px;
+    }
+}
+@media (max-width:375px){
+    .container{
+        width: 350px;
+        height: 600px;
+    }
+    .search-container{
+        width: 300px;
+    }
+    .username{
+        width: 200px;
+    }
+    .btn{
+        width: 60px;
+    }
+    .result-container{
+        width: 300px;
+        height: 450px;
+    }
+    .user-img{
+        margin-left: 100px;
+        width: 110px;
+        height: 110px;
+    }
+     .user-name{
+        margin-left: 100px;
+     }
+     .user-login{
+        margin:0;
+     }
+     .user-bio{
+        margin: 0;
+     }
+     .user-info{
+        width: 290px;
+        padding: 9px;
+        margin-left:1px;
+     }
+     .user-info label{
+        margin: 5px;
+     }
+     .user-blog{
+        margin: 0;
+    }
+    .user-blog a{
+        margin-left:5px;
+    }
+    .user-company,.user-twitter{
+        margin-left: 2px;
+        display: block;
+        margin-top: 20px;
+    }
+}
+@media (max-width:425px){
+    .container{
+        width: 350px;
+        height: 600px;
+    }
+    .search-container{
+        width: 300px;
+    }
+    .username{
+        width: 200px;
+    }
+    .btn{
+        width: 60px;
+    }
+    .result-container{
+        width: 300px;
+        height: 460px;
+    }
+    .user-img{
+        margin-left: 100px;
+        width: 110px;
+        height: 110px;
+    }
+     .user-name{
+        margin-left: 100px;
+     }
+     .user-login{
+        margin:0;
+     }
+     .user-bio{
+        margin: 0;
+     }
+     .user-info{
+        width: 290px;
+        padding: 9px;
+        margin-left:1px;
+     }
+     .user-info label{
+        margin: 5px;
+     }
+     .user-blog{
+        margin: 0;
+    }
+    .user-blog a{
+        margin-left:5px;
+    }
+    .user-company,.user-twitter{
+        margin-left: 2px;
+        display: block;
+        margin-top: 20px;
+    }
+}
